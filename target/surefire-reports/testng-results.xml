@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4919" started-at="2020-06-11T09:32:41 MST" finished-at="2020-06-11T09:32:46 MST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4919" started-at="2020-06-11T09:32:41 MST" finished-at="2020-06-11T09:32:46 MST">
+      <class name="com.qa.testscripts.ValidateNullCity">
+        <test-method status="PASS" signature="validateResponseCodeNullCityTest()[pri:0, instance:com.qa.testscripts.ValidateNullCity@e14b7d6c]" name="validateResponseCodeNullCityTest" duration-ms="341" started-at="2020-06-11T09:32:46 MST" finished-at="2020-06-11T09:32:46 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseCodeNullCityTest -->
+      </class> <!-- com.qa.testscripts.ValidateNullCity -->
+      <class name="com.qa.testscripts.ValidateInvalidCity">
+        <test-method status="PASS" signature="validateResponseCodeInvalidCityTest()[pri:0, instance:com.qa.testscripts.ValidateInvalidCity@f8dedada]" name="validateResponseCodeInvalidCityTest" duration-ms="348" started-at="2020-06-11T09:32:45 MST" finished-at="2020-06-11T09:32:46 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseCodeInvalidCityTest -->
+      </class> <!-- com.qa.testscripts.ValidateInvalidCity -->
+      <class name="com.qa.testscripts.GetCityNameLanguageWithCountryName">
+        <test-method status="PASS" signature="GetCityNameAndLangFromCountryNameTest()[pri:0, instance:com.qa.testscripts.GetCityNameLanguageWithCountryName@a0077b95]" name="GetCityNameAndLangFromCountryNameTest" duration-ms="387" started-at="2020-06-11T09:32:45 MST" finished-at="2020-06-11T09:32:45 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCityNameAndLangFromCountryNameTest -->
+      </class> <!-- com.qa.testscripts.GetCityNameLanguageWithCountryName -->
+      <class name="com.qa.testscripts.GetCityNameLanguageWithCode">
+        <test-method status="PASS" signature="GetCityNameAndLangTest()[pri:0, instance:com.qa.testscripts.GetCityNameLanguageWithCode@c9e2c55f]" name="GetCityNameAndLangTest" duration-ms="3801" started-at="2020-06-11T09:32:41 MST" finished-at="2020-06-11T09:32:45 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCityNameAndLangTest -->
+      </class> <!-- com.qa.testscripts.GetCityNameLanguageWithCode -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

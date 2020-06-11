@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4056" started-at="2020-06-11T21:51:15 IST" finished-at="2020-06-11T21:51:19 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4056" started-at="2020-06-11T21:51:15 IST" finished-at="2020-06-11T21:51:19 IST">
+      <class name="com.qa.testscripts.GetCityNameLanguageWithCountryName">
+        <test-method status="PASS" signature="GetCityNameAndLangFromCountryNameTest()[pri:0, instance:com.qa.testscripts.GetCityNameLanguageWithCountryName@67b92f0a]" name="GetCityNameAndLangFromCountryNameTest" duration-ms="4012" started-at="2020-06-11T21:51:15 IST" finished-at="2020-06-11T21:51:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCityNameAndLangFromCountryNameTest -->
+      </class> <!-- com.qa.testscripts.GetCityNameLanguageWithCountryName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

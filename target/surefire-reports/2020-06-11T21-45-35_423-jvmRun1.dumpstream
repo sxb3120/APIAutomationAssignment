@@ -1,0 +1,34 @@
+# Created at 2020-06-11T21:47:02.125
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:197)
+	at java.io.DataInputStream.readFully(DataInputStream.java:169)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:126)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-06-11T21:47:02.944
+Unexpected IOException: 8,1,com.qa.testscripts.GetCityNameLanguageWithCode,GetCityNameAndLangTest(com.qa.testscripts.GetCityNameLanguageWithCode),null,expected [200] but found [404],null,expected [200] but found [404],GetCityNameLanguageWithCode.GetCityNameAndLangTest:31 expected [200] but found [404],java.lang.AssertionError: expected [200] but found [404]\000A\0009at com.qa.testscripts.GetCityNameLanguageWithCode.GetCityNameAndLangTest(GetCityNameLanguageWithCode.java:31)\000A
+
+
+# Created at 2020-06-11T21:47:02.946
+Unexpected IOException: 5,1,com.qa.testscripts.ValidateInvalidCity,validateResponseCodeInvalidCityTest(com.qa.testscripts.ValidateInvalidCity),com.qa.testscripts.ValidateInvalidCity,null,null
+
+
+# Created at 2020-06-11T21:47:03.736
+Unexpected IOException with stream: response code is 404 as expected for invalid city
+
+
+# Created at 2020-06-11T21:47:03.737
+Unexpected IOException with stream: Enter invalid city name
+
+
+# Created at 2020-06-11T21:47:03.738
+Unexpected IOException: 8,1,com.qa.testscripts.ValidateInvalidCity,validateResponseCodeInvalidCityTest(com.qa.testscripts.ValidateInvalidCity),null,No line found,null,No line found,ValidateInvalidCity.validateResponseCodeInvalidCityTest:35 \00BB NoSuchElement No ...,java.util.NoSuchElementException: No line found\000A\0009at com.qa.testscripts.ValidateInvalidCity.validateResponseCodeInvalidCityTest(ValidateInvalidCity.java:35)\000A
+
+
+# Created at 2020-06-11T21:47:03.970
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
